@@ -68,6 +68,7 @@ class Vehicle(models.Model):
         ('non_permanent_use', 'Non Permanent Use'),
         ('permanent_use', 'Permanent Use'),
         ('water', 'Water'),
+        ('trailer', 'Trailer'),
     ]
     id = models.AutoField(primary_key=True)
     driver = models.CharField(max_length=255)  # a nombre de quien
